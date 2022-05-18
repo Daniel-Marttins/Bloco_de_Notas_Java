@@ -1,0 +1,19 @@
+A leitura e escrita de arquivos por um programa pode se muito útil, seja para servir como arquivo de configurações e evitar a necessidade de modificação frequente do código fonte do próprio programa para cada cenário ou simplesmente para servir para entrada e saída de dados.
+
+Neste artigo vou explicar passo a passo como criar um programa que a realiza leitura e escrita de um arquivo .txt. em Java
+
+1. Criando arquivo para leitura e escrita
+Para nosso exemplo foi criado um arquivo chamado 'file.txt' que tem como objetivo ser utilizado para leitura e escrita pelo programa que será criado passo a passo ao longo deste artigo. Neste exemplo o arquivo foi criado através de um terminal Linux, porém o mesmo pode ser criado de qualquer maneira, cabe ao leitor escolher a melhor forma para criação do arquivo (notepad, gedit,vim...). Inicialmente este arquivo está vazio como pode ser visto abaixo:
+
+Leitura do arquivo no terminal Linux
+Figura 1: Leitura do arquivo no terminal Linux
+
+2. Código Java
+Para explicar de maneira simples como funciona a leitura e escrita de arquivos, além da criação do arquivo que será utilizado pelo programa, também foi criado um projeto com o nome de Manipulador_de_Arquivo que tem duas classes em seu interior:
+
+ManipuladorArquivo.java
+Principal.java
+2.1 ManipuladorArquivo.java
+Classe que tem como função manipular (leitura e escrita) do arquivo txt. Abaixo é possível ver a classe ManipuladorArquivo.java e seus métodos.
+
+Listagem 1: Classe ManipuladorArquivo.java
